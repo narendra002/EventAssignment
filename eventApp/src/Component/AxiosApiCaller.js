@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify'; // Import toast from react-toastify
 
-const BASE_URL = 'https://3000-narendra002-eventassign-h1j18jg4gr3.ws-us104.gitpod.io'; // Replace with your actual API URL
+const BASE_URL = 'http://localhost:3000'; // Replace with your actual API URL
 
 // Function to make a login request
 export const login = async (email, password) => {
